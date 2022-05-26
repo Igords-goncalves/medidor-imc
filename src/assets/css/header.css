@@ -1,0 +1,7 @@
+header > h1 {
+    color: #fff;
+    font-family: var(--title-font);
+    font-size: 30px;
+    padding: 20px;
+    color: var(--title-font-color)
+}

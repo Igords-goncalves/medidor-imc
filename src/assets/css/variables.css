@@ -1,0 +1,14 @@
+:root {
+    --main-bg-color: #282a36; /* Dracula color */
+    --linear-gradient-color: linear-gradient(
+        rgba(30, 22, 145, 0.384),
+        rgba(171, 19, 177, 0.281)
+    );
+    --text-font-color: #fff;
+    --title-font-color: #fff;
+    --input-bg-color: #282a36a9;
+    --hover-input-bg-color: #1a1c22;
+
+    --title-font: "Exo", sans-serif;
+    --text-font: "Abel", sans-serif;
+}

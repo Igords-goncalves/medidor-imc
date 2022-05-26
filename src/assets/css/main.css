@@ -1,0 +1,92 @@
+main {
+    font-family: var(--text-font);
+}
+
+.container {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: solid 1px var(--input-bg-color);
+}
+
+.container:hover {
+    border: solid 1px var(--hover-input-bg-color);
+}
+
+.container input {
+    background-color: var(--input-bg-color);
+    color: #fff;
+    margin-left: 10px;
+    border: none;
+}
+.nome {
+    padding: 0 10px;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+}
+.nome:hover {
+    background-color: var(--hover-input-bg-color);
+}
+
+.genero {
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+.altura {
+    padding: 0 10px;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.altura:hover {
+    background-color: var(--hover-input-bg-color);
+}
+
+.peso {
+    padding: 0 10px;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.peso:hover {
+    background-color: var(--hover-input-bg-color);
+}
+
+.result {
+    background-color: var(--input-bg-color);
+    color: #fff;
+    width: 80%;
+    height: 90px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.botao {
+    margin: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botao input {
+    background-color: var(--input-bg-color);
+    color: #fff;
+    padding: 5px 30px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+}
+
+input[type="button"]:hover {
+    background-color: var(--hover-input-bg-color);
+}
