@@ -4,8 +4,8 @@ const router = express.Router();
 
 const app = express();
 
-router.get('/',function(req,res){
-    res.sendFile(path.join(__dirname,'./src/index.html'));
+router.get('/', (req,res) => {
+    res.sen(path.join(__dirname, 'index.html'))
   });
 
 app.use('/', router);

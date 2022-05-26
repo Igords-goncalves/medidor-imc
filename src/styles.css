@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Exo:wght@700&display=swap');
+
+@import "assets/css/variables.css";
+@import "assets/css/body.css";
+@import "assets/css/header.css";
+@import "assets/css/main.css";
+@import "assets/css/footer.css";
+@import "assets/css/resultado.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

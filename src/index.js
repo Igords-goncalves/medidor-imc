@@ -9,5 +9,5 @@ Header();
 Main();
 Resultado();
 Botao();
-Submit()
+Submit();
 Footer();
